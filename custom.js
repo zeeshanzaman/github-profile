@@ -1,7 +1,7 @@
 // root url
 const APIURL = 'https://api.github.com/users/'
 
-getUser('bradtraversy')
+const form = document.getElementById('form')
 
 async function getUser(username) {
     try {
